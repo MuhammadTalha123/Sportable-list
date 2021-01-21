@@ -19,6 +19,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: 'Lato', sans-serif;
+  width: 100%;
 }
 
 .draggable-list {
@@ -88,4 +89,15 @@ body {
 
 .check-btn:focus {
   outline: none;
+}
+
+@media screen and (max-width:450px){
+  .heading {
+    font-size: 22px;
+  }
+
+  .para {
+    font-size: 13px;
+    margin: 0px 20px; 
+  }
 }
